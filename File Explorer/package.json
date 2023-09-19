@@ -1,0 +1,24 @@
+{
+  "name": "file-explorer",
+  "version": "1.0.0",
+  "description": "VS code like file explorer to create files and folders.",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "ReactJS"
+  ],
+  "author": "ben",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  }
+}
